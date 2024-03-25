@@ -28,23 +28,25 @@ const Checkout = ({
 
   useEffect(() => {
     // Check to see if this is a redirect back from Checkout
-    const query = new URLSearchParams(window.location.search);
-    if (query.get("success")) {
-      toast({
-        title: "Order placed!",
-        description: "You will receive an email confirmation",
-        duration: 5000,
-        className: "success-toast",
-      });
-    }
-
-    if (query.get("canceled")) {
-      toast({
-        title: "Order canceled!",
-        description: "Your order has been cancelled successfully",
-        duration: 5000,
-        className: "error-toast",
-      });
+    if (typeof window !== "undefined") {
+      const query = new URLSearchParams(window.location.search);
+      if (query.get("success")) {
+        toast({
+          title: "Order placed!",
+          description: "You will receive an email confirmation",
+          duration: 5000,
+          className: "success-toast",
+        });
+      }
+  
+      if (query.get("canceled")) {
+        toast({
+          title: "Order canceled!",
+          description: "Your order has been cancelled successfully",
+          duration: 5000,
+          className: "error-toast",
+        });
+      }
     }
   }, []);
 
