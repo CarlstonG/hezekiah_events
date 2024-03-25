@@ -116,9 +116,14 @@ function DashboardSidebar({
   }
 
   function getCurrentDimension() {
-    if (typeof window !== "undefined") {
-      return window?.innerWidth;
-    }
+      // Check if window is defined (i.e., in the browser environment)
+  if (typeof window !== "undefined") {
+    // Access the innerWidth property of window safely
+    return window.innerWidth;
+  } else {
+    // Handle the case where window is not available (e.g., during SSR)
+    return undefined; // or provide a default value
+  }
   }
 
   const [screenSize, setScreenSize] = useState(getCurrentDimension());
