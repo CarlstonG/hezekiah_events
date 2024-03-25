@@ -146,7 +146,6 @@ class ApiClient {
     if (toaster) {
       toaster({
         title: "Error",
-
         description:
           //@ts-ignore
           error.response?.data?.response?.meta?.message ||
