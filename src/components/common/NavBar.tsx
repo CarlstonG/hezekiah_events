@@ -16,27 +16,27 @@ function NavBar() {
         <div className="flex justify-between mx-[41px] items-center">
           <div>
             <img
-              src="/images/landing_logo.png"
+              src="/images/logo2.jpg"
               alt="logo"
-              className="object-cover w-[10rem]"
+              className="object-cover w-[5rem] rounded-full"
             />
           </div>
           <div className="flex gap-[20px] xl:gap-[50px] text-[16px] items-center select-none">
-            <p
+            <a href="/"
               className={`hover:text-primary cursor-pointer flex items-center gap-2  font-[500] text-gray`}
             >
               Home
-            </p>
-            <p
+            </a>
+            <a href="#whyus"
               className={`hover:text-primary cursor-pointer flex items-center gap-2  font-[500] text-gray`}
             >
               Packages
-            </p>
-            <p
+            </a>
+            <a href="#footer"
               className={`hover:text-primary cursor-pointer flex items-center gap-2  font-[500] text-gray`}
             >
               Contact
-            </p>
+            </a>
           </div>
           <div className="flex items-center gap-[40px] select-none w-[24px] h-[24px]">
             <img src="/images/hamburger.png" alt="hamburger" className="" />
@@ -52,9 +52,9 @@ function NavBar() {
         <div className="flex justify-between mx-[10px]">
           <div className="flex gap-[50px] text-[16px] items-center select-none">
             <img
-              src="/images/landing_logo.png"
+              src="/images/logo2.jpg"
               alt="logo"
-              className="w-[7rem] object-cover"
+              className="w-[2rem] object-cover rounded-full"
             />
           </div>
           <div className="flex items-center gap-[40px]">
@@ -97,7 +97,9 @@ function NavBar() {
           <div></div>
         )}
       </div>
+      <br />
     </div>
+    
   );
 }
 

@@ -1,19 +1,22 @@
+import Link from "next/link";
 import React from "react";
 
 function Footer() {
   return (
-    <div className="text-white bg-primary py-16 px-4">
+    <div className="text-white bg-primary py-16 px-4" id="footer">
       <div className=" flex flex-col md:flex-row justify-between gap-16">
         <div>
-          <p className="text-[34px] font-bold">TravelScapeToor</p>
+          <p className="text-[34px] font-bold">Hezekiah Events</p>
           <p className="mt-4 mb-8">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-            eiusmod tempor incididunt ut labore et dolore magna aliqua.
+           Book with us! We are committed to value, service and style. Book now and let's create your event that last a lifetime. Hezekiah!
           </p>
 
           <div className="flex gap-4">
             <div>
+              <Link href="#" target="_blank">
               <img src="/images/facebook_app_symbol.png" alt="social icon" />
+              </Link>
+              
             </div>
             <div>
               <img src="/images/linkedin.png" alt="social icon" />
@@ -42,27 +45,27 @@ function Footer() {
                 <div>
                   <img src="/images/maps_and_flags.png" alt="location icon" />
                 </div>
-                <p>Anyware, any rode, nr xyz, india</p>
+                <p>Negros Oriental Philippines</p>
               </div>
               <div className="flex gap-2 items-center">
                 <div>
                   <img src="/images/call_icon.png" alt="location icon" />
                 </div>
-                <p>+91 9876543210</p>
+                <p>+63 9876543210</p>
               </div>
 
               <div className="flex gap-2 items-center">
                 <div>
                   <img src="/images/envelop.png" alt="location icon" />
                 </div>
-                <p>support@travelscape.com</p>
+                <p>support@hezekiah.com</p>
               </div>
             </div>
           </div>
         </div>
       </div>
       <p className="flex justify-center pt-32">
-        travelscape©2024 all right reserve
+        Hezekiah©2024 all right reserve
       </p>
     </div>
   );

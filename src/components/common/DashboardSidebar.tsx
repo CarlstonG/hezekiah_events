@@ -157,10 +157,10 @@ function DashboardSidebar({
         className={`flex ${!minimize ? "justify-between" : "justify-center"}`}
       >
         <img
-          src="/images/dashboard_logo.png"
+          src="/images/logo2.jpg"
           alt="socialforce logo"
           className={`${
-            minimize ? "min-[767px]:hidden" : "block"
+            minimize ? "min-[200px]:hidden" : "block"
           } cursor-pointer`}
         />
         {!excludeMinimize && !minimize ? (

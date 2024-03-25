@@ -8,7 +8,7 @@ import JotaiProviders from '@/providers/jotai'
 import { Toaster } from "@/components/ui/toaster"
 
 export const metadata: Metadata = {
-  title: 'Travel Scape',
+  title: 'Hezekiah',
   description: 'We provide all your travel needs'
 }
 

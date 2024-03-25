@@ -102,18 +102,18 @@ export async function generateNewPackages(total: number = 12) {
     }
 
     const tripNames = [
-      "Journey through the Highlands in Scotland",
-      "Safari adventure in Kenya's Maasai Mara",
+      "Journey through the Highlands",
+      "Safari adventure Honeymoon",
       "Island hopping in the Philippines",
-      "Cultural immersion in Japan",
-      "Exploration of the fjords in Norway",
-      "Desert expedition in Morocco",
+      "Amazing Wedding",
+      "Party Party",
+      "Wedding Reservation",
       "Trekking in the Himalayas of Nepal",
       "Road trip along the coast of Australia",
       "Historical tour of Italy's ancient ruins",
       "Wildlife encounter in the Amazon Rainforest",
-      "Relaxing getaway in the Maldives",
-      "City exploration in vibrant India",
+      "Relaxing getaway in the Maldives for birthdays",
+      "City exploration in vibrant Date",
     ];
 
     const images = [

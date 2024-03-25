@@ -7,17 +7,17 @@ function WhyChooseUs() {
     {
       icon: "/images/c_1.png",
       title: "Best Price Guarantee",
-      desription: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+      desription: "Book with us, we are number 1",
     },
     {
       icon: "/images/c_2.png",
       title: "Best Price Guarantee",
-      desription: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+      desription: "Elite Organizers",
     },
     {
       icon: "/images/c_3.png",
       title: "Best Price Guarantee",
-      desription: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+      desription: "Free consultation!",
     },
   ];
 
@@ -36,7 +36,7 @@ function WhyChooseUs() {
     },
   ];
   return (
-    <section>
+    <section id="whyus">
       <div className="flex flex-col gap-8 md:flex-row justify-around">
         <div>
           <img src="/images/choose_us.png" alt="choose us" />
@@ -71,14 +71,11 @@ function WhyChooseUs() {
         <div>
           <Header
             title="Why Choose Us?"
-            description="Choose Dream Dictation For Explore World"
+            description="Choose Dream Events with Us!"
           />
 
           <p className="my-8">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
-            ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-            aliquip ex ea commodo consequat.
+          We are committed to value, service and style. Book now and let's create your event that last a lifetime. Hezekiah!
           </p>
 
           <MainButton text="About Us" classes="w-[150px]" />
