@@ -64,6 +64,11 @@ function DashboardNavigation() {
                 <p className="text-secondary">
                   Here is the information about all your orders
                 </p>
+              
+                <br />
+                <a href="https://calendly.com/carlstongrefalde/consultation-meeeting" target="_blank" rel="noopener noreferrer" className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded">
+                Schedule a Consultation
+              </a>
               </div>
               <div className="text-black font-[500] flex items-center gap-8">
                 <div className="flex">

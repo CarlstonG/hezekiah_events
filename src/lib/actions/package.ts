@@ -102,18 +102,18 @@ export async function generateNewPackages(total: number = 12) {
     }
 
     const tripNames = [
-      "Journey through the Highlands",
-      "Safari adventure Honeymoon",
+      "Heze Pure build epic supreme packages",
+      "Heze Pure build epic supreme packages Honeymoon",
       "Island hopping in the Philippines",
       "Amazing Wedding",
       "Party Party",
       "Wedding Reservation",
-      "Trekking in the Himalayas of Nepal",
-      "Road trip along the coast of Australia",
-      "Historical tour of Italy's ancient ruins",
-      "Wildlife encounter in the Amazon Rainforest",
-      "Relaxing getaway in the Maldives for birthdays",
-      "City exploration in vibrant Date",
+      "Heze Pure build epic supreme packages",
+      "Heze Pure build epic supreme packages",
+      "Heze Pure build epic supreme packages",
+      "Heze Pure build epic supreme packages",
+      "Heze Pure build epic supreme packages",
+      "Heze Pure build epic supreme packages",
     ];
 
     const images = [
