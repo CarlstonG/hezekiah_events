@@ -103,11 +103,11 @@ export async function generateNewPackages(total: number = 12) {
 
     const tripNames = [
       "Heze Pure build epic supreme packages",
-      "Heze Pure build epic supreme packages Honeymoon",
-      "Island hopping in the Philippines",
-      "Amazing Wedding",
-      "Party Party",
-      "Wedding Reservation",
+      "Heze Pure build epic supreme packages",
+      "Heze Pure build epic supreme packages",
+      "Heze Pure build epic supreme packages",
+      "Heze Pure build epic supreme packages",
+      "Heze Pure build epic supreme packages",
       "Heze Pure build epic supreme packages",
       "Heze Pure build epic supreme packages",
       "Heze Pure build epic supreme packages",
