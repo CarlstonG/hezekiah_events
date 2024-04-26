@@ -86,7 +86,7 @@ function PackageCard({
               <span className="text-gray-500">({total_rating})</span>
             </div>
             <div>
-              <img src="/images/laughing_emoji.png" alt="emoji image" />
+              <img src="/images/laughing_emoji.png" alt="emoji image" />ford expeditio
             </div>
           </div>
         </div>
@@ -101,13 +101,16 @@ function PackageCard({
           <span className="ml-2">Per person</span>
         </div>
         <div className="my-4">
-          <MainButton
+          {/* <MainButton
             text="Book now"
             classes="w-[100px] h-[30px]"
             isLoading={loading}
             action={() => handleOrder(_id)}
             dataLoadingText="wait"
-          />
+          /> */}
+            <a href="https://calendly.com/hezenorsu/30min" target="_blank" rel="noopener noreferrer" className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded">
+                Schedule a Consultation
+              </a>
         </div>
 
         <section className="flex gap-8 flex-col md:flex-row">
@@ -123,7 +126,7 @@ function PackageCard({
 
           <div className="flex gap-2 items-center text-gray-500">
             <Icon icon="mdi:location" className="text-[24px]" />
-            <span className="">{location}</span>
+            <span className="">   {/*{location}*/} Philippines</span> 
           </div>
         </section>
       </div>
